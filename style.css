@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(2017.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style:none;
+    margin-top: 30px;
+    margin-right: -160px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a 
+{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;   
+    font-size: 15px;
+    
+}
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: -120px;
+    margin-top: 20px;
+    
+}
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.hero
+{
+    position: absolute;
+    width 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1
+{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: ;
+    margin-top:275px;
+    margin-left: 640px;
+}
+
+h2{
+     color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: right;
+    margin-top:45px;
+    margin-left: 350px;
+}
+.button
+{
+    margin-top: 33px;
+    margin-left: 550px;
+}
+
+.btn
+{
+   border: 2px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+        margin-right: 33px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", cursive;
+}
+
+.btn-two
+{
+    font-family: "Roboto", cursive;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
